@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CurrencyController">
+   <children>
+      <ChoiceBox fx:id="from" layoutX="94.0" layoutY="160.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="to" layoutX="362.0" layoutY="160.0" prefWidth="150.0" />
+      <Spinner fx:id="fromSpinner" editable="true" layoutX="89.0" layoutY="205.0" />
+      <Label fx:id="label" alignment="CENTER_RIGHT" layoutX="362.0" layoutY="196.0" prefHeight="45.0" prefWidth="150.0" text="0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
