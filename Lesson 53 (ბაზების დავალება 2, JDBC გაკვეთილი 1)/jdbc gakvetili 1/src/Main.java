@@ -28,7 +28,7 @@ public class Main {
 //                    rs.getString("last_name")
 //            );
 //        }
-
+//
 //        System.out.println(connection.isClosed());
 
 
@@ -57,16 +57,16 @@ public class Main {
 //        );
 
 
-        StudentManagement sm = new StudentManagement();
+//        StudentManagement sm = new StudentManagement();
 //        sm.printAllStudents();
 
 //        sm.deleteAllStudents();
 //
 //        sm.printAllStudents();
 
-        sm.printAllStudents();
-        sm.updateStudentName(6, "John");
-        System.out.println("==================================");
-        sm.printAllStudents();
+//        sm.printAllStudents();
+//        sm.updateStudentName(6, "John");
+//        System.out.println("==================================");
+//        sm.printAllStudents();
     }
 }
